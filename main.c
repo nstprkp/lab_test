@@ -9,15 +9,6 @@ struct flat
     char family[100];
 };
 
-#include "headder.h"
-
-struct flat
-{
-    int floor;
-    int number;
-    char family[100];
-};
-
 int input_check()
 {
     int val;
